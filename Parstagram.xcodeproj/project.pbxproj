@@ -16,6 +16,7 @@
 		A86AC0BC223342D800B55D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86AC0BA223342D800B55D8C /* LaunchScreen.storyboard */; };
 		A86AC0C7223342D800B55D8C /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AC0C6223342D800B55D8C /* ParstagramTests.swift */; };
 		A86AC0D2223342D800B55D8C /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AC0D1223342D800B55D8C /* ParstagramUITests.swift */; };
+		A8E55E0C2238FE55002BC0A6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E55E0B2238FE55002BC0A6 /* CommentCell.swift */; };
 		A8F86D642233702B00DF5AC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F86D632233702B00DF5AC2 /* LoginViewController.swift */; };
 		A8F86D662233704A00DF5AC2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F86D652233704A00DF5AC2 /* FeedViewController.swift */; };
 		A8F86D6822347E6E00DF5AC2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F86D6722347E6E00DF5AC2 /* CameraViewController.swift */; };
@@ -58,6 +59,7 @@
 		A86AC0CD223342D800B55D8C /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86AC0D1223342D800B55D8C /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		A86AC0D3223342D800B55D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E55E0B2238FE55002BC0A6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		A8F86D632233702B00DF5AC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A8F86D652233704A00DF5AC2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A8F86D6722347E6E00DF5AC2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				A8F86D632233702B00DF5AC2 /* LoginViewController.swift */,
 				A8F86D6722347E6E00DF5AC2 /* CameraViewController.swift */,
 				A8F86D6922348D3200DF5AC2 /* PostCell.swift */,
+				A8E55E0B2238FE55002BC0A6 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				A8F86D662233704A00DF5AC2 /* FeedViewController.swift in Sources */,
 				A86AC0B2223342D800B55D8C /* AppDelegate.swift in Sources */,
 				A8F86D6A22348D3200DF5AC2 /* PostCell.swift in Sources */,
+				A8E55E0C2238FE55002BC0A6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
