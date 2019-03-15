@@ -213,7 +213,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="buX-1H-GDo" id="WaS-fE-GwT"/>
+                        <outlet property="tableView" destination="buX-1H-GDo" id="91u-E5-Ogt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yy6-gr-OE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
